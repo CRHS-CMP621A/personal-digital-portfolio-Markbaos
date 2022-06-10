@@ -29,8 +29,8 @@ li.nav-li a,
 }
 
 li.nav-li a:hover,
-.dropdown:hover .dropbtn {
-  background-color: red;
+.dropdown:hover a.dropbtn {
+  background-color: pink;
 }
 
 li.dropdown {
@@ -64,20 +64,35 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.anchor1 {
+
+.name {
   text-align: center;
+  margin-top: 50px;
 }
 
 .container {
   padding: 50px;
+  
+}
+
+.t2 {
+  text-align: center;
 }
 
 .p1 {
+  margin-top: 10px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: aqua;
+  background-color: pink;
+  color: grey;
   border-style: ridge;
   border-width: 8px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+
+.para {
+  padding: 10px;
 }
 
 .img1 {
@@ -86,7 +101,7 @@ li.dropdown {
   margin-right: auto;
   width: 500px;
   border-style: double;
-  border-width: 10px;
+  border-width: 20px;
   border-color: pink;
 }
 
@@ -101,11 +116,89 @@ li.dropdown {
   grid-template-columns: 1fr 1fr;
   margin-top: 200px;
   border-top: solid;
-  margin-left: 200px;
+  margin-left: 400px;
+  font-weight: 100;
 }
 
 .group1 {
   margin-left: 20px;
   padding: 40px;
   text-align: center;
+}
+
+.img3 {
+  border-style: outset;
+  margin-top: 60px;
+  width: 400px;
+}
+
+.skill2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+  border-top: solid;
+  margin-right: 400px;
+  font-weight: 100;
+}
+
+.group2 {
+  margin-left: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.img4 {
+  border-style: outset;
+  margin-top: 60px;
+  width: 400px;
+}
+
+.skill3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+  border-top: solid;
+  margin-left: 400px;
+  font-weight: 100;
+}
+
+.group3 {
+  margin-left: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.mail {
+  text-align: left;
+}
+
+.toTop {
+  text-align: center;
+}
+
+.web {
+  text-align: left;
+}
+
+footer {
+  color: black;
+  height: 100px;
+  border: solid;
+  display: grid;
+  grid-template-columns: 200px 150px;
+  margin-top: 100px;
+  padding: 10px;
+  
+}
+
+footer a {
+  color: pink;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer a:visited {
+  color: purple;
 }
